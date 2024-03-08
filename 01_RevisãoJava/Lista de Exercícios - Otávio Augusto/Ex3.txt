@@ -1,0 +1,15 @@
+3. Explique o que é: classe e objeto. Qual relação entre eles?
+
+Classe pode ser definido como um "molde" para a criação de um Objeto. Uma Classe é uma estrutura que
+define o comportamento e as características de um Objeto. Na classe é definido os atributos (ou 
+propriedades) que um objeto desse tipo terá, bem como os métodos (ou funções) que o objeto será capaz
+de executar. Exemplo: uma classe "Carro" pode ter atributos como "marca", "modelo" e "ano", e métodos 
+como "ligar" e "desligar".
+O Objeto é a "forma" criada pelo "molde", o qual vai representar determinada "coisa" do mundo real. O
+Objeto é uma instância de uma classe. Ele é uma entidade real que existe na memória durante a execução
+do programa. Quando é criado, é usado o modelo definido pela classe para criar uma versão específica do
+objeto, com valores específicos para seus atributos. Exemplo: um objeto da classe "Carro" poderia ser
+um carro específico com a marca "Toyota", o modelo "Corolla" e o ano "2022".
+A relação entre classe e objeto é que a classe define o modelo ou estrutura de um tipo de objeto (o que
+vai forma-lo de fato), enquanto o objeto é uma instância específica dessa classe, contendo seus próprios
+dados e comportamentos. 

@@ -1,0 +1,9 @@
+1. O que é uma variável? Descreva como é feita a declaração de variável e explique em termos de memória sua relação.
+
+Variável é um espaço reservado na memória do computador para armazenar um valor de determinado tipo 
+(inteiro, double, char, ...). A declaração de uma variável é feita usando um <tipo> seguido de um 
+<nome> e uma atribuição para inicializar a variavel (de desejar), seguido de um ponto e virgula (;) 
+para finalizar a linha de comando e ir para a próxima (dependendo da linguagem não é necessário). 
+Exemplo: int number = 5;. Em termos de memória, quando uma variável é declarada o sistema aloca um
+espaço na memória RAM com determinados bits a serem preenchidos, o tamanho do espaço varia conforme
+o tipo de valor declarado.

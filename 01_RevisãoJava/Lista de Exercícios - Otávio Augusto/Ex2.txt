@@ -1,0 +1,19 @@
+2. Linguagens de programação podem ser compiladas e interpretadas, explique o conceito de cada contexto 
+ressaltando suas diferenças. Em relação à Linguagem Java, em qual desses contextos se encaixa?
+
+Uma linguagem compilada necessita de um compilador, ela é convertida diretamente na máquina em 
+um código de máquina (binário) que o sistema operacional pode executar. Elas são mais rápidas 
+na sua execução devido a isso. A  linguagem compilada também da ao desenvolvedor mais controle 
+sobre alguns aspectos do hardware, como o gerenciamento da memória e o uso da CPU.
+Uma linguagem interpretada tem o código fonte executado por um programa de computador chamado
+interpretador. A interpretação e a execução do programa ocorrem em tempo real e independente
+do sistema operacional utilizado.
+Enquanto a linguagem compilada necessita de compilar antes de executar o programa, a interpretada
+consegue interpretar ao mesmo tempo que a execução acontece. A compilada acaba sendo mais rápida
+porque o processo de traduzir o código em tempo de execução aumenta o tempo do processo, podendo
+fazer com que o programa seja mais lento.
+A linguagem Java pode ser considerada uma linguagem "compilada-interpretada". Embora o código-fonte
+seja compilado pelo compilador Java (javac) em bytecode (conjunto de instruções de baixo nível 
+independente da plataforma), o qual é armazenado em arquivos .class, o bytecode passa a ser
+interpretado pela JVM (Máquina Virtual Java) em tempo de execução. A JVM traduz o bytecode em código
+de máquina nativo do sistema em que está sendo executada.
